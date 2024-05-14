@@ -14,14 +14,14 @@ function App() {
     <h1>Proyecto e-commerce</h1>
     <h2>Lista de productos</h2>
     {products.length === 0 ? <p>Cargando Productos</p> : products.map(product => 
-    <>
+    <div key = {product.id}>
     <ul>
       <li>ID:{product.id}</li>
       <li>Producto:{product.name}</li>
       <li>Precio : {product.price}</li>
       <li>Cantidad : {product.stock}</li>
     </ul>
-    </>)}
+    </div>)}
     <FirstComponent> </FirstComponent>
     </>
   );

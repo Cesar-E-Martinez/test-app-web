@@ -8,7 +8,6 @@ const FirstComponent = () => {
     }
   return (
     <>
-    <h1>My very first component</h1>
     <h3>Numero de productos agregados: {contador}</h3>
     <button onClick={sumar}>Agregar al carrito</button>
     </>

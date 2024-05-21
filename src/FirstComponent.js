@@ -10,6 +10,7 @@ const FirstComponent = () => {
     <>
     <h3>Numero de productos agregados: {contador}</h3>
     <button onClick={sumar}>Agregar al carrito</button>
+    
     </>
 
 )}
